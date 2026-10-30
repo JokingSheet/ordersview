@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ordertrend",
+  "version": "${version}",
+  "name": "Order Trend",
+  "description": "Scannt /orders, speichert die Preise und zeigt in einer GUI, was steigt oder faellt.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.ordertrend.OrderTrendClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

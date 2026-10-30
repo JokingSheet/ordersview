@@ -1,0 +1,10 @@
+Order Trend (Fabric, Minecraft 1.21.11, nur Client)
+
+Tasten (aenderbar in den Minecraft-Steuerungen):
+  J = /orders scannen (alle Seiten, speichert einen Snapshot)
+  L = Trend-GUI oeffnen
+
+Dateien im config-Ordner:
+  ordertrend-config.json  Befehl, max. Seiten, Wort fuer "naechste Seite"
+  ordertrend-data.json    gespeicherte Scans
+  ordertrend-dump.txt     Rohtext der ersten Seite (zum Debuggen)
