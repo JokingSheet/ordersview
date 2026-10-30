@@ -16,8 +16,8 @@ jobs:
         with:
           gradle-version: 9.2.1
       - run: gradle build
-        working-directory: ordertrend
+        working-directory: ordertrend-projekt/ordertrend
       - uses: actions/upload-artifact@v4
         with:
           name: ordertrend-jar
-          path: ordertrend/build/libs/ordertrend-*[0-9].jar
+          path: ordertrend-projekt/ordertrend/build/libs/ordertrend-*[0-9].jar
